@@ -1,0 +1,10 @@
+java_library {
+   name: "sace",
+   srcs: [
+      "src/com/android/sace/SaceService.java",
+      "src/com/android/sace/SaceCommand.java",
+      "src/com/android/sace/SaceManager.java",
+      "src/com/android/sace/ErrorCode.java",
+   ],
+   installable: true
+}
